@@ -4,9 +4,15 @@
   "version": "1.0.1",
   "url": "http://github.com/deitch/activator",
   "author": "Avi Deitcher <avi@deitcher.net>",
-  "engines": [
-    "node >= 0.8"
+  "contributors": [
+    {
+      "name": "Avi Deitcher",
+      "email": "avi@deitcher.net"
+    }
   ],
+  "engines": {
+    "node": ">=0.8"
+  },
   "main": "./lib/activator.js",
   "dependencies": {
     "lodash": ">=1.3.1",
@@ -37,5 +43,6 @@
   "repository": {
     "type": "git",
     "url": "http://github.com/deitch/activator.git"
-  }
+  },
+  "bugs": "https://github.com/deitch/activator/issues"
 }
